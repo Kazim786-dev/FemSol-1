@@ -1,20 +1,17 @@
-#dropdown-basic{
+*:not(#leavetable, #search, #searchfield, #row) {
+    margin: 1%;
+}
+
+#dropdown-basic {
     color: black;
     background-color: transparent;
     border: black 1px solid;
     border-radius: 8px;
     text-align: left;
-    height: auto;
-    width: 160%;
+    /* height: auto;
+    width: 160%; */
 }
 
-
-
-#row{
+#row {
     margin-left: 1%;
-}
-
-
-*:not(#leavetable,#search,#searchfield,#row){
-    margin: 1%;
 }
